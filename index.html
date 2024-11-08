@@ -1,0 +1,353 @@
+<!-- Сообщаем браузеру как следует обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<!-- Подключение страницы стилей -->
+	<title>Домашка по адаптиву</title>
+	<!-- Подключение страницы стилей -->
+
+	<!-- Если задать условие напимер ширина меньше 501px и подключить файл, допустим как здесь example.css, то он будет менять указанные в нём свойства, например body {background-color: #5e5373;
+}, только  если ширина будет меньше 501px, а так же если в основном стиле, в нашем случае css/style.css, не промисан фоновый цвет для body или запись подключения example.css сделана ниже подключения css/style.css (в этом случае пофиг что написано в css/style.css), как здесь, если же поменять строки подключения местами и в css/style.css прописан жёлтый фоновый цвет, то даже при ширине экрана в 400px цвет не поменяется - свойства последнего подключённого стиля в приоритете -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Заголовок страницы в браузере -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<!-- С появлением HTM5 можно использовать  -->
+	<meta charset="UTF-8">
+
+	<!-- Настройки адаптивности страницы  -->
+	<!-- Фиксированная ширина  -->
+	<!-- <meta name="viewport" content="width=1170"> -->
+
+	<!-- Адаптивность  -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- <meta name="viewport" content="width=device-width"> -->
+
+
+
+
+
+</head>
+<!-- Отображаемое тело страницы  -->
+
+<body>
+	<!-- Оболочка для демонстрации -->
+	<div class="wrapper">
+		<!-- Контент -->
+		<div class="content">
+			<!-- Первая секция с меню -->
+			<section class="header">
+				<!-- <div class="hd_menu">
+						<div class="hd_menu-left">
+							<div class="hd_menu_button hd_menu_bt1">
+								about us
+							</div>
+							<div class="hd_menu_point">
+								.
+							</div>
+							<div class="hd_menu_button hd_menu_bt2">
+								work
+							</div>
+						</div>
+						<div class="hd_menu_logo">
+							<img src="img/icons/logo_52.png" alt="">
+						</div>
+						<div class="hd_menu-right">
+							<div class="hd_menu_button hd_menu_bt3">
+								shop
+							</div>
+							<div class="hd_menu_point">
+								.
+							</div>
+							<div class="hd_menu_button hd_menu_bt4">
+								contact
+							</div>
+						</div>
+					</div> -->
+				<img src="img/bg_2.jpg" alt="">
+			</section>
+			<section class="body_1">
+				<div class="bd1_content">
+					<div class="bd1_logo">
+						<img width='52' height="43" src="img/icons/icon_126.png" alt="">
+					</div>
+					<div class="bd1_title title_text">
+						A NEW GENERATION OF VINTAGE BIKE
+					</div>
+					<div class="bd1_text text">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+						but also the leap into electronic typesetting, remaining essentially unchanged.
+					</div>
+				</div>
+			</section>
+			<section class="body_2">
+				<div class="bd2_content">
+					<div class="bd2_leftbox">
+						<div class="bd2_img-left">
+							<img src="img/rectangle_1_54.jpg" alt="">
+							<div class="bd2_img-left_logo">
+								<img src="img/icons/logo_76.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="bd2_column">
+						<div class="bd2_cl_text">
+							<div class="bd2_cl_txt_logo">
+								<img src="img/icons/icon_78.png" alt="">
+							</div>
+							<div class="bd2_cl_txt_title title_text">
+								vintage Oliva
+							</div>
+							<div class="bd2_cl_txt_text text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived.
+							</div>
+						</div>
+						<div class="bd2_cl_img">
+							<img src="img/rectangle_1_copy_2_56.jpg" alt="">
+							<div class="triangle">
+								<a href="#" class="triangle">
+									<span class="triangle_content"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="body_3">
+				<div class="bd3_content">
+					<div class="bd3_column">
+						<div class="bd3_cl_text">
+							<div class="bd3_cl_txt_logo">
+								<img src="img/icons/icon_93.png" alt="">
+							</div>
+							<div class="bd3_cl_txt_title title_text">
+								La Boriosa
+							</div>
+							<div class="bd3_cl_txt_text text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived.
+							</div>
+						</div>
+						<div class="bd3_cl_img">
+							<img src="img/rectangle_1_copy_3_59.jpg" alt="">
+							<div class="triangle">
+								<a href="#" class="triangle">
+									<span class="triangle_content"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bd3_img-right">
+						<img src="img/rectangle_1_copy_5_61.jpg" alt="">
+						<div class="bd3_img-r_logo">
+							<img src="img/icons/logo_83.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="body_4">
+				<div class="bd4_content">
+					<div class="bd4_img-left">
+						<img src="img/rectangle_1_copy_6_63.jpg" alt="">
+						<div class="bd4_img-l_logo">
+							<img src="img/icons/logo_114.png" alt="">
+						</div>
+					</div>
+					<div class="bd4_column">
+						<div class="bd4_cl_text">
+							<div class="bd4_cl_txt_logo">
+								<img src="img/icons/icon_129.png" alt="">
+							</div>
+							<div class="bd4_cl_txt_title title_text">
+								retrò Bike - M. Hulot
+							</div>
+							<div class="bd4_cl_txt_text text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived.
+							</div>
+						</div>
+						<div class="bd4_cl_img">
+							<img src="img/rectangle_1_copy_6_65.jpg" alt="">
+							<div class="triangle">
+								<a href="#" class="triangle">
+									<span class="triangle_content"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="bd4_img-right">
+						<img src="img/rectangle_1_copy_6_64.jpg" alt="">
+					</div>
+				</div>
+			</section>
+			<section class="body_5">
+				<div class="bd5_content">
+					<div class="bd5_logo">
+						<img src="img/icons/icon_130.png" alt="">
+					</div>
+					<div class="bd5_title title_text">
+						AOD New York @aod <span>/ 35 min</span>
+					</div>
+					<div class="bd5_text text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus.
+						Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.
+					</div>
+					<!-- <div class="bd5_buttons">
+						<div class="bd5_bt1">
+							<a href="" class="bd5_bt_link bd5_bt_active"></a>
+						</div>
+						<div class="bd5_bt2">
+							<a href="" class="bd5_bt_link"></a>
+						</div>
+						<div class="bd5_bt3">
+							<a href="" class="bd5_bt_link"></a>
+						</div>
+					</div> -->
+				</div>
+			</section>
+			<section class="body_6">
+				<div class="bd6_content">
+					<div class="bd6_column-left">
+						<div class="bd6_cl-l_line-up">
+							<div class="bd6_cl-l_ln-u_img1">
+								<img src="img/rectangle_3_118.jpg" alt="">
+							</div>
+							<div class="bd6_cl-l_ln-u_img2">
+								<img src="img/rectangle_3_copy_137.jpg" alt="">
+							</div>
+						</div>
+						<div class="bd6_cl-l_line-down">
+							<img src="img/rectangle_3_copy_3_139.jpg" alt="">
+						</div>
+					</div>
+					<div class="bd6_ln-c_img1">
+						<img src="img/rectangle_1_copy_8_140.jpg" alt="">
+					</div>
+					<div class="bd6_ln-c_img2">
+						<img src="img/rectangle_1_copy_7_136.jpg" alt="">
+					</div>
+					<div class="bd6_column-right">
+						<div class="bd6_cl-r_line-up">
+							<img src="img/Rectangle 3 copy 4.jpg" alt="">
+							<svg class="bd6_cl-r_ln-u_on">
+								<div class="bd6_cl-r_ln-u_on_logo">
+									<img src="img/icons/shape_13_169.png" alt="">
+									<div class="bd6_cl-r_ln-u_on_text">
+										Shop now
+									</div>
+								</div>
+							</svg>
+						</div>
+						<div class="bd6_cl-r_line-down">
+							<div class="bd6_cl-r_ln-d_img1">
+								<img src="img/rectangle_3_copy_6_143.jpg" alt="">
+							</div>
+							<div class="bd6_cl-r_ln-d_img2">
+								<img src="img/rectangle_3_copy_7_144.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="body_7">
+				<div class="bd7_content">
+					<div class="bd7_title">
+						<span>DISCOVER THE SHOP</span>
+					</div>
+				</div>
+			</section>
+			<section class="body_8">
+				<div class="bd8_content">
+					<div class="bd8_logo">
+						<img src="img/icons/logo_196.png" alt="">
+					</div>
+					<div class="bd8_text">
+						Stay on the saddle!
+					</div>
+					<div class="bd8_login">
+						<form action="#" method="post">
+							<div class="bd8_lg_text">
+								<input class="bd8_lg_text_content" type="text" name="search"
+									placeholder="enter your email...">
+							</div>
+							<div class="bd8_lg_button">
+								<div><span>GO</span></div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="footer">
+				<div class="ft_content">
+					<div class="ft_text">
+						<span>AOD New York</span> <br>
+						2250 Lexington Avenue <br>
+						New York, NY 10035 - info@domain.com
+					</div>
+					<!-- <div class="ft_links">
+						<div class="ft_links_tw">
+							<a
+								href="https://twitter.com/intent/tweet?text=НАЗВАНИЕ&url=АДРЕС ВАШЕГО САЙТА&via=АВТОР САЙТА">
+								<img src="img/icons/vector_smart_object_199.png" alt="">
+							</a>
+						</div>
+						<div class="ft_links_fb">
+							<a class="link" href="https://www.facebook.com/sharer/sharer.php?u=АДРЕС ВАШЕГО САЙТА"
+								target="_blank">
+								<img src="img/icons/vector_smart_object_200.png" alt="">
+							</a>
+						</div>
+						<div class="ft_links_red">
+							<a href="#" class="link">
+								<img src="img/icons/vector_smart_object_201.png" alt="">
+							</a>
+						</div>
+					</div> -->
+					<div class="ft_logo">
+						<div class="ft_logo_text">
+							Handcrafted by
+						</div>
+						<div class="ft_logo_logo">
+							<img src="img/icons/y_e_b_o_logo_206.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+
+</html>
+
+
+
+
+<!-- Маска для блока в форме треугольника -->
+<svg width="1" height="1" viewBox="0 0 1 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<clipPath id="triangle1" clipPathUnits="objectBoundingBox">
+		<path d="M0 0H1L0.5 1L0 0Z" fill="black" />
+	</clipPath>
+</svg>
+
+
+<!-- 
+<picture> 
+							<source srcset="img/1300x400.jpg" type="image/jpeg" media="(min-width:1330px">
+							<source srcset="img/800x400.jpg 3x" type="image/jpeg" media="(min-width:992px">
+							<source srcset="img/400x600.jpg" type="image/jpeg" media="(max-width:992px">
+
+							<Эта строка прописана для браузеров, которые не поддерживают конструкцию picture 
+							<img src="icons/AnyConv.com__icon_78.svg" alt="">
+						</picture> -->
